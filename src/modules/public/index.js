@@ -28,12 +28,12 @@ export default class Public extends React.Component {
           <Helmet>
           <title>Home</title>
             <meta name="description" content="Regulation Crowdfunding portal in the US." />
-            <link rel="canonical" href="https://chetan-bura-cuelogic.github.io/" />
+            <link rel="canonical" href="https://5c2f4651b1d1d7cc4036914d--infallible-wilson-023261.netlify.com/" />
             <meta property="og:locale" content="en_US" />
             <meta property="og:type" content="website" />
             <meta property="og:title" content={`${Date()}Local Businesses through Debt Crowdfunding`} />
             <meta property="og:description" content="Regulation Crowdfunding portal in the US." />
-            <meta property="og:url" content="https://chetan-bura-cuelogic.github.io/" />
+            <meta property="og:url" content="https://5c2f4651b1d1d7cc4036914d--infallible-wilson-023261.netlify.com/" />
             <meta property="og:site_name" content="NextSeed" />
             <meta property="og:image" content="https://cdn.nextseed.co/app/uploads/IMG_2710.jpg" />
             <meta property="og:image:secure_url" content="https://cdn.nextseed.co/app/uploads/IMG_2710.jpg" />
