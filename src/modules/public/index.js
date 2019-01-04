@@ -1,6 +1,7 @@
 import React from 'react';
 import { inject, observer } from 'mobx-react';
 import { Route, Switch, withRouter } from 'react-router-dom';
+import { Helmet } from 'react-helmet';
 import { Segment, Container, Grid } from 'semantic-ui-react';
 import { LoadingSpinner, NotFound } from '../../theme/common/ImportCommon';
 import Header from '../../theme/layout/Header';
@@ -24,6 +25,21 @@ export default class Public extends React.Component {
     return (
       <div>
         <Header navigation={pages} />
+          <Helmet>
+          <title>Home</title>
+            <meta name="description" content="Regulation Crowdfunding portal in the US." />
+            <link rel="canonical" href="https://chetan-bura-cuelogic.github.io/" />
+            <meta property="og:locale" content="en_US" />
+            <meta property="og:type" content="website" />
+            <meta property="og:title" content={`${Date()}Local Businesses through Debt Crowdfunding`} />
+            <meta property="og:description" content="Regulation Crowdfunding portal in the US." />
+            <meta property="og:url" content="https://chetan-bura-cuelogic.github.io/" />
+            <meta property="og:site_name" content="NextSeed" />
+            <meta property="og:image" content="https://cdn.nextseed.co/app/uploads/IMG_2710.jpg" />
+            <meta property="og:image:secure_url" content="https://cdn.nextseed.co/app/uploads/IMG_2710.jpg" />
+            <meta property="og:image:width" content="1600" />
+            <meta property="og:image:height" content="1067" />
+          </Helmet>
           <Segment vertical className="content">
             <Container>
               <Grid columns={1}>
